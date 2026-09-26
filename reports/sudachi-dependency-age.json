@@ -1,0 +1,23 @@
+[
+  {
+    "name": "SudachiPy",
+    "version": "0.6.11",
+    "latest_artifact_upload": "2026-04-13T05:27:26.857472Z",
+    "requires_dist": [
+      "tokenizers; extra == \"tests\"",
+      "sudachidict_core; extra == \"tests\""
+    ],
+    "registry": "https://pypi.org/pypi/SudachiPy/0.6.11/json",
+    "eligible": true
+  },
+  {
+    "name": "sudachidict-core",
+    "version": "20260723",
+    "latest_artifact_upload": "2026-07-24T05:41:52.520104Z",
+    "requires_dist": [
+      "SudachiPy<0.7,>=0.5"
+    ],
+    "registry": "https://pypi.org/pypi/sudachidict-core/20260723/json",
+    "eligible": true
+  }
+]

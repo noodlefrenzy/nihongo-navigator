@@ -1,0 +1,14 @@
+export type Level = 'beginner' | 'intermediate' | 'advanced';
+export type MeaningUnit = { id: string; ja_span: string; meaning: string; keywords: string[][]; critical: boolean };
+export type Gloss = { entry_id: string; sense: number; headword: string; reading: string; glosses: string[]; source: string; license: string };
+export type Segment = { text: string; reading: string; place_id: string | null;
+  tokens?: { text: string; lemma: string; reading: string; glosses: Gloss[] }[] };
+export type Sentence = { id: string; text: string; segments: Segment[]; references: string[];
+  units: MeaningUnit[]; difficulty: Level; source_fact_ids: string[] };
+export type Fact = { id: string; subject_id: string; predicate: string; value: unknown;
+  source: { dataset: string; url: string; revision?: number } };
+export type PlaceContent = { place_id: string; level: Level; auto_generated: boolean; generated_at: string;
+  model: string; sentences: Sentence[]; facts: Fact[] };
+export type Judgment = { score: number; verdict: string; units: { unit: string; status: 'conveyed' | 'partial' | 'missing' | 'wrong' }[];
+  issues: { ja_span: string; learner_text: string; explanation: string }[];
+  feedback: string; suggested_translation: string; method: 'reference' | 'model' | 'approximate' };

@@ -1,0 +1,13 @@
+# Publication timestamps verified from pypi.org on 2026-09-24.
+# shapely: 2025-05-19; numpy: 2025-05-17 (complete dependency closure).
+shapely==2.1.1
+numpy==2.2.6
+# tippecanoe: 2024-12-10; no Python runtime dependencies.
+tippecanoe==2.72.0
+# Font subsetting; verified PyPI release files before adding these versions.
+fonttools==4.58.0
+brotli==1.1.0
+# Sentence reading validator; full closure verified on PyPI on 2026-09-25.
+# SudachiPy 0.6.11: 2026-04-13; core 20260723: 2026-07-24.
+SudachiPy==0.6.11
+SudachiDict-core==20260723

@@ -1,0 +1,4 @@
+# Fixed resolution ceiling predates the initial build by more than 72 hours.
+# Update only after verifying every newly resolved release against PyPI.
+exclude-newer = "2026-09-20T00:00:00Z"
+index-url = "https://pypi.org/simple"

@@ -1,0 +1,586 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-25T03:13:54.981Z",
+  "title": "Design System: 地図で学ぶ · Chizu",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Green Ink",
+        "tonalRamp": [
+          "oklch(15% 0.03010 189.23)",
+          "oklch(26% 0.03010 189.23)",
+          "oklch(38% 0.03010 189.23)",
+          "oklch(49% 0.03010 189.23)",
+          "oklch(61% 0.03010 189.23)",
+          "oklch(72% 0.03010 189.23)",
+          "oklch(84% 0.03010 189.23)",
+          "oklch(95% 0.03010 189.23)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Quiet Green Gray",
+        "tonalRamp": [
+          "oklch(15% 0.02696 175.88)",
+          "oklch(26% 0.02696 175.88)",
+          "oklch(38% 0.02696 175.88)",
+          "oklch(49% 0.02696 175.88)",
+          "oklch(61% 0.02696 175.88)",
+          "oklch(72% 0.02696 175.88)",
+          "oklch(84% 0.02696 175.88)",
+          "oklch(95% 0.02696 175.88)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Cartographic Green",
+        "tonalRamp": [
+          "oklch(15% 0.07877 171.29)",
+          "oklch(26% 0.07877 171.29)",
+          "oklch(38% 0.07877 171.29)",
+          "oklch(49% 0.07877 171.29)",
+          "oklch(61% 0.07877 171.29)",
+          "oklch(72% 0.07877 171.29)",
+          "oklch(84% 0.07877 171.29)",
+          "oklch(95% 0.07877 171.29)"
+        ]
+      },
+      "selected-ink": {
+        "role": "primary",
+        "displayName": "Selected Green Ink",
+        "tonalRamp": [
+          "oklch(15% 0.08420 165.33)",
+          "oklch(26% 0.08420 165.33)",
+          "oklch(38% 0.08420 165.33)",
+          "oklch(49% 0.08420 165.33)",
+          "oklch(61% 0.08420 165.33)",
+          "oklch(72% 0.08420 165.33)",
+          "oklch(84% 0.08420 165.33)",
+          "oklch(95% 0.08420 165.33)"
+        ]
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Focus Green",
+        "tonalRamp": [
+          "oklch(15% 0.08621 172.71)",
+          "oklch(26% 0.08621 172.71)",
+          "oklch(38% 0.08621 172.71)",
+          "oklch(49% 0.08621 172.71)",
+          "oklch(61% 0.08621 172.71)",
+          "oklch(72% 0.08621 172.71)",
+          "oklch(84% 0.08621 172.71)",
+          "oklch(95% 0.08621 172.71)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": [
+          "oklch(15% 0.00666 115.70)",
+          "oklch(26% 0.00666 115.70)",
+          "oklch(38% 0.00666 115.70)",
+          "oklch(49% 0.00666 115.70)",
+          "oklch(61% 0.00666 115.70)",
+          "oklch(72% 0.00666 115.70)",
+          "oklch(84% 0.00666 115.70)",
+          "oklch(95% 0.00666 115.70)"
+        ]
+      },
+      "water": {
+        "role": "neutral",
+        "displayName": "Pale Water",
+        "tonalRamp": [
+          "oklch(15% 0.01142 217.54)",
+          "oklch(26% 0.01142 217.54)",
+          "oklch(38% 0.01142 217.54)",
+          "oklch(49% 0.01142 217.54)",
+          "oklch(61% 0.01142 217.54)",
+          "oklch(72% 0.01142 217.54)",
+          "oklch(84% 0.01142 217.54)",
+          "oklch(95% 0.01142 217.54)"
+        ]
+      },
+      "land": {
+        "role": "neutral",
+        "displayName": "Chalk Land",
+        "tonalRamp": [
+          "oklch(15% 0.00928 113.16)",
+          "oklch(26% 0.00928 113.16)",
+          "oklch(38% 0.00928 113.16)",
+          "oklch(49% 0.00928 113.16)",
+          "oklch(61% 0.00928 113.16)",
+          "oklch(72% 0.00928 113.16)",
+          "oklch(84% 0.00928 113.16)",
+          "oklch(95% 0.00928 113.16)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Panel Rule",
+        "tonalRamp": [
+          "oklch(15% 0.01685 156.87)",
+          "oklch(26% 0.01685 156.87)",
+          "oklch(38% 0.01685 156.87)",
+          "oklch(49% 0.01685 156.87)",
+          "oklch(61% 0.01685 156.87)",
+          "oklch(72% 0.01685 156.87)",
+          "oklch(84% 0.01685 156.87)",
+          "oklch(95% 0.01685 156.87)"
+        ]
+      },
+      "coast": {
+        "role": "neutral",
+        "displayName": "Coast Gray",
+        "tonalRamp": [
+          "oklch(15% 0.01800 192.21)",
+          "oklch(26% 0.01800 192.21)",
+          "oklch(38% 0.01800 192.21)",
+          "oklch(49% 0.01800 192.21)",
+          "oklch(61% 0.01800 192.21)",
+          "oklch(72% 0.01800 192.21)",
+          "oklch(84% 0.01800 192.21)",
+          "oklch(95% 0.01800 192.21)"
+        ]
+      },
+      "municipality-line": {
+        "role": "neutral",
+        "displayName": "Municipality Gray",
+        "tonalRamp": [
+          "oklch(15% 0.01896 155.72)",
+          "oklch(26% 0.01896 155.72)",
+          "oklch(38% 0.01896 155.72)",
+          "oklch(49% 0.01896 155.72)",
+          "oklch(61% 0.01896 155.72)",
+          "oklch(72% 0.01896 155.72)",
+          "oklch(84% 0.01896 155.72)",
+          "oklch(95% 0.01896 155.72)"
+        ]
+      },
+      "action-hover": {
+        "role": "neutral",
+        "displayName": "Action Tint",
+        "tonalRamp": [
+          "oklch(15% 0.01353 134.90)",
+          "oklch(26% 0.01353 134.90)",
+          "oklch(38% 0.01353 134.90)",
+          "oklch(49% 0.01353 134.90)",
+          "oklch(61% 0.01353 134.90)",
+          "oklch(72% 0.01353 134.90)",
+          "oklch(84% 0.01353 134.90)",
+          "oklch(95% 0.01353 134.90)"
+        ]
+      },
+      "row-active": {
+        "role": "neutral",
+        "displayName": "Row Tint",
+        "tonalRamp": [
+          "oklch(15% 0.01576 139.44)",
+          "oklch(26% 0.01576 139.44)",
+          "oklch(38% 0.01576 139.44)",
+          "oklch(49% 0.01576 139.44)",
+          "oklch(61% 0.01576 139.44)",
+          "oklch(72% 0.01576 139.44)",
+          "oklch(84% 0.01576 139.44)",
+          "oklch(95% 0.01576 139.44)"
+        ]
+      },
+      "status-ground": {
+        "role": "neutral",
+        "displayName": "Status Tint",
+        "tonalRamp": [
+          "oklch(15% 0.02090 140.90)",
+          "oklch(26% 0.02090 140.90)",
+          "oklch(38% 0.02090 140.90)",
+          "oklch(49% 0.02090 140.90)",
+          "oklch(61% 0.02090 140.90)",
+          "oklch(72% 0.02090 140.90)",
+          "oklch(84% 0.02090 140.90)",
+          "oklch(95% 0.02090 140.90)"
+        ]
+      },
+      "status-ink": {
+        "role": "neutral",
+        "displayName": "Status Ink",
+        "tonalRamp": [
+          "oklch(15% 0.06543 154.44)",
+          "oklch(26% 0.06543 154.44)",
+          "oklch(38% 0.06543 154.44)",
+          "oklch(49% 0.06543 154.44)",
+          "oklch(61% 0.06543 154.44)",
+          "oklch(72% 0.06543 154.44)",
+          "oklch(84% 0.06543 154.44)",
+          "oklch(95% 0.06543 154.44)"
+        ]
+      },
+      "error": {
+        "role": "secondary",
+        "displayName": "Error Red",
+        "tonalRamp": [
+          "oklch(15% 0.12330 25.78)",
+          "oklch(26% 0.12330 25.78)",
+          "oklch(38% 0.12330 25.78)",
+          "oklch(49% 0.12330 25.78)",
+          "oklch(61% 0.12330 25.78)",
+          "oklch(72% 0.12330 25.78)",
+          "oklch(84% 0.12330 25.78)",
+          "oklch(95% 0.12330 25.78)"
+        ]
+      },
+      "action-hover-deep": {
+        "role": "primary",
+        "displayName": "Deep Action Green",
+        "tonalRamp": [
+          "oklch(15% 0.07152 166.10)",
+          "oklch(26% 0.07152 166.10)",
+          "oklch(38% 0.07152 166.10)",
+          "oklch(49% 0.07152 166.10)",
+          "oklch(61% 0.07152 166.10)",
+          "oklch(72% 0.07152 166.10)",
+          "oklch(84% 0.07152 166.10)",
+          "oklch(95% 0.07152 166.10)"
+        ]
+      },
+      "action-text": {
+        "role": "neutral",
+        "displayName": "Action White",
+        "tonalRamp": [
+          "oklch(15% 0.00000 89.88)",
+          "oklch(26% 0.00000 89.88)",
+          "oklch(38% 0.00000 89.88)",
+          "oklch(49% 0.00000 89.88)",
+          "oklch(61% 0.00000 89.88)",
+          "oklch(72% 0.00000 89.88)",
+          "oklch(84% 0.00000 89.88)",
+          "oklch(95% 0.00000 89.88)"
+        ]
+      },
+      "input-ground": {
+        "role": "neutral",
+        "displayName": "Input Paper",
+        "tonalRamp": [
+          "oklch(15% 0.00666 97.35)",
+          "oklch(26% 0.00666 97.35)",
+          "oklch(38% 0.00666 97.35)",
+          "oklch(49% 0.00666 97.35)",
+          "oklch(61% 0.00666 97.35)",
+          "oklch(72% 0.00666 97.35)",
+          "oklch(84% 0.00666 97.35)",
+          "oklch(95% 0.00666 97.35)"
+        ]
+      },
+      "input-border": {
+        "role": "neutral",
+        "displayName": "Input Border",
+        "tonalRamp": [
+          "oklch(15% 0.02736 154.27)",
+          "oklch(26% 0.02736 154.27)",
+          "oklch(38% 0.02736 154.27)",
+          "oklch(49% 0.02736 154.27)",
+          "oklch(61% 0.02736 154.27)",
+          "oklch(72% 0.02736 154.27)",
+          "oklch(84% 0.02736 154.27)",
+          "oklch(95% 0.02736 154.27)"
+        ]
+      },
+      "learning-ink": {
+        "role": "secondary",
+        "displayName": "Learning Green Gray",
+        "tonalRamp": [
+          "oklch(15% 0.05083 165.88)",
+          "oklch(26% 0.05083 165.88)",
+          "oklch(38% 0.05083 165.88)",
+          "oklch(49% 0.05083 165.88)",
+          "oklch(61% 0.05083 165.88)",
+          "oklch(72% 0.05083 165.88)",
+          "oklch(84% 0.05083 165.88)",
+          "oklch(95% 0.05083 165.88)"
+        ]
+      },
+      "review-ink": {
+        "role": "secondary",
+        "displayName": "Review Brown",
+        "tonalRamp": [
+          "oklch(15% 0.09717 64.07)",
+          "oklch(26% 0.09717 64.07)",
+          "oklch(38% 0.09717 64.07)",
+          "oklch(49% 0.09717 64.07)",
+          "oklch(61% 0.09717 64.07)",
+          "oklch(72% 0.09717 64.07)",
+          "oklch(84% 0.09717 64.07)",
+          "oklch(95% 0.09717 64.07)"
+        ]
+      },
+      "correction": {
+        "role": "secondary",
+        "displayName": "Correction Clay",
+        "tonalRamp": [
+          "oklch(15% 0.10602 37.96)",
+          "oklch(26% 0.10602 37.96)",
+          "oklch(38% 0.10602 37.96)",
+          "oklch(49% 0.10602 37.96)",
+          "oklch(61% 0.10602 37.96)",
+          "oklch(72% 0.10602 37.96)",
+          "oklch(84% 0.10602 37.96)",
+          "oklch(95% 0.10602 37.96)"
+        ]
+      },
+      "difference-removed": {
+        "role": "secondary",
+        "displayName": "Removed Reading Red",
+        "tonalRamp": [
+          "oklch(15% 0.11933 27.19)",
+          "oklch(26% 0.11933 27.19)",
+          "oklch(38% 0.11933 27.19)",
+          "oklch(49% 0.11933 27.19)",
+          "oklch(61% 0.11933 27.19)",
+          "oklch(72% 0.11933 27.19)",
+          "oklch(84% 0.11933 27.19)",
+          "oklch(95% 0.11933 27.19)"
+        ]
+      },
+      "input-error": {
+        "role": "secondary",
+        "displayName": "Input Error Red",
+        "tonalRamp": [
+          "oklch(15% 0.12348 29.38)",
+          "oklch(26% 0.12348 29.38)",
+          "oklch(38% 0.12348 29.38)",
+          "oklch(49% 0.12348 29.38)",
+          "oklch(61% 0.12348 29.38)",
+          "oklch(72% 0.12348 29.38)",
+          "oklch(84% 0.12348 29.38)",
+          "oklch(95% 0.12348 29.38)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Selected Japanese name on desktop."
+      },
+      "headline-mobile": {
+        "displayName": "Headline Mobile",
+        "purpose": "Selected Japanese name at or below 760px."
+      },
+      "settings-title": {
+        "displayName": "Settings Title",
+        "purpose": "Settings heading at both viewport sizes."
+      },
+      "brand": {
+        "displayName": "Brand",
+        "purpose": "Japanese brand on desktop; 16px on phones."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Desktop places introduction; also the size of answer kana."
+      },
+      "title-mobile": {
+        "displayName": "Title Mobile",
+        "purpose": "Places introduction on phones."
+      },
+      "difference": {
+        "displayName": "Difference",
+        "purpose": "Kana comparison and source title."
+      },
+      "input": {
+        "displayName": "Input",
+        "purpose": "Reading entry at both viewport sizes."
+      },
+      "feedback": {
+        "displayName": "Feedback",
+        "purpose": "Explicit result heading at both viewport sizes."
+      },
+      "place": {
+        "displayName": "Place",
+        "purpose": "List names and desktop romanization."
+      },
+      "brand-subtitle": {
+        "displayName": "Brand Subtitle",
+        "purpose": "Latin subtitle, hidden on phones."
+      },
+      "romanization-mobile": {
+        "displayName": "Romanization Mobile",
+        "purpose": "Romanized answer on phones."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Question labels, controls, settings labels, and source body."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Feedback notes, submitted answers, list headings and counts."
+      },
+      "metadata": {
+        "displayName": "Metadata",
+        "purpose": "Input and settings help; desktop parent hierarchy."
+      },
+      "status": {
+        "displayName": "Status",
+        "purpose": "Progress text, legend and card provenance."
+      },
+      "reading": {
+        "displayName": "Reading",
+        "purpose": "Semantic DOM ruby annotations."
+      }
+    },
+    "shadows": [
+      {
+        "name": "paper-lift",
+        "value": "0 8px 30px #203c3612",
+        "purpose": "Shared --shadow on floating paper surfaces and map controls."
+      }
+    ],
+    "motion": [
+      {
+        "name": "map-selection-flight",
+        "value": "850ms",
+        "purpose": "MapLibre selection flight; 0ms when reduced motion is requested."
+      },
+      {
+        "name": "input-viewport-scroll",
+        "value": "instant",
+        "purpose": "Scroll the focused reading input into view when the visible viewport resizes."
+      },
+      {
+        "name": "reduced-motion-scroll",
+        "value": "auto",
+        "purpose": "scroll-behavior override under prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow",
+        "value": "760px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Map toolbar",
+      "kind": "nav",
+      "refersTo": "toolbar-action",
+      "description": "Places, explicit furigana state, and settings controls. The Places detour preserves the mounted reading attempt.",
+      "html": "<nav class=\"ds-toolbar\" aria-label=\"Map controls\"><button class=\"ds-toolbar-action\" aria-expanded=\"false\">Places</button><button class=\"ds-furigana\" aria-pressed=\"true\"><span lang=\"ja\">あ</span> Furigana <strong>on</strong></button><button class=\"ds-close\" aria-label=\"Settings\" aria-expanded=\"false\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 7h16M4 17h16M9 4v6m6 4v6\"/></svg></button></nav>",
+      "css": ".ds-furigana{font-family:\"BIZ UDPGothic\",sans-serif;color:var(--ink,#263e3c);display:flex;align-items:center;gap:8px;min-height:44px;background:transparent;border:0;font-size:12px;padding:8px 12px;cursor:pointer;}.ds-furigana>span{font-size:20px;}.ds-furigana strong{font-size:10px;text-transform:uppercase;background:#e1ecdf;padding:5px;border-radius:3px;color:#315b40;}.ds-furigana:hover{background:#eaf0e7;}.ds-furigana:focus-visible{outline:3px solid #247863;outline-offset:3px;}.ds-close{font-family:\"BIZ UDPGothic\",sans-serif;color:var(--ink,#263e3c);display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;border:0;background:transparent;cursor:pointer;}.ds-close:focus-visible{outline:3px solid #247863;outline-offset:3px;}.ds-toolbar{display:flex;align-items:center;gap:10px;}.ds-toolbar-action{font-family:\"BIZ UDPGothic\",sans-serif;color:var(--ink,#263e3c);min-height:44px;background:transparent;border:0;font-size:12px;padding:8px 12px;cursor:pointer;}.ds-toolbar-action:hover{background:#eaf0e7;}.ds-toolbar-action:focus-visible{outline:3px solid #247863;outline-offset:3px;}@media(max-width:760px){.ds-toolbar{gap:0;}.ds-toolbar-action,.ds-furigana{padding:8px;font-size:10px;}.ds-furigana{gap:5px;}.ds-furigana>span{font-size:16px;}.ds-toolbar .ds-close{min-width:36px;padding:8px 4px;}}"
+    },
+    {
+      "name": "Close action",
+      "kind": "button",
+      "refersTo": "icon-action",
+      "description": "A labeled inline SVG control using the common keyboard outline.",
+      "html": "<button class=\"ds-close\" aria-label=\"Close place card\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M6 6l12 12M18 6 6 18\"/></svg></button>",
+      "css": ".ds-close{font-family:\"BIZ UDPGothic\",sans-serif;color:var(--ink,#263e3c);display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;border:0;background:transparent;cursor:pointer;}.ds-close:focus-visible{outline:3px solid #247863;outline-offset:3px;}"
+    },
+    {
+      "name": "Primary reading action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Check reading and Next use the same filled action; Next spans the feedback width.",
+      "html": "<button class=\"ds-primary\">Check reading <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-primary{font-family:\"BIZ UDPGothic\",sans-serif;display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:46px;padding:12px 16px;border:1px solid #226b57;border-radius:3px;background:#226b57;color:#fff;font-size:12px;cursor:pointer;}.ds-primary:hover{background:#17543f;}.ds-primary:focus-visible{outline:3px solid #247863;outline-offset:3px;}.ds-primary:disabled{cursor:default;opacity:.5;}"
+    },
+    {
+      "name": "Quiet reveal action",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "A transparent secondary action reveals the canonical reading.",
+      "html": "<button class=\"ds-quiet\" type=\"button\">Reveal</button>",
+      "css": ".ds-quiet{font-family:\"BIZ UDPGothic\",sans-serif;color:var(--ink,#263e3c);min-height:44px;background:transparent;border:0;font-size:12px;padding:10px;cursor:pointer;}.ds-quiet:focus-visible{outline:3px solid #247863;outline-offset:3px;}"
+    },
+    {
+      "name": "Reading input",
+      "kind": "input",
+      "refersTo": "reading-input",
+      "description": "A visible question label, 48px field, and concise input help; the 17px entry type remains unchanged on phones.",
+      "html": "<div class=\"ds-reading-form\"><label for=\"ds-reading-input\">How do you read this name?</label><input id=\"ds-reading-input\" lang=\"en\" placeholder=\"Type in romaji\" maxlength=\"150\" autocomplete=\"off\" autocapitalize=\"off\" spellcheck=\"false\" enterkeyhint=\"go\"><p class=\"ds-input-note\">The base name is enough. Kana works too.</p></div>",
+      "css": ".ds-reading-form{font-family:\"BIZ UDPGothic\",sans-serif;color:var(--ink,#263e3c);}.ds-reading-form label{display:block;font-size:12px;margin-bottom:12px;}.ds-reading-form input{font-family:\"BIZ UDPGothic\",sans-serif;color:var(--ink,#263e3c);width:100%;height:48px;padding:10px 12px;border:1px solid #9aac9f;border-radius:3px;background:#fffef9;font-size:17px;caret-color:var(--accent,#226b57);}.ds-reading-form input:focus-visible{outline:3px solid #247863;outline-offset:3px;}.ds-input-note{font-size:10px;color:var(--muted,#526761);line-height:1.8;}.ds-input-error{font-size:12px;color:#973d32;}.ds-answer-actions{display:flex;gap:12px;margin-top:20px;}@media(max-width:760px){.ds-reading-form label{margin-bottom:8px;}.ds-answer-actions{margin-top:12px;}}"
+    },
+    {
+      "name": "Place row with progress",
+      "kind": "button",
+      "refersTo": "place-row",
+      "description": "Place names pair with a progress shape and text; aria-current and the pale row field represent selection.",
+      "html": "<button class=\"ds-place-row\" aria-current=\"true\"><span lang=\"ja\">草津町</span><span class=\"ds-place-status\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" aria-hidden=\"true\"><circle cx=\"10\" cy=\"10\" r=\"5.5\"/><path d=\"M10 4.5a5.5 5.5 0 0 1 0 11Z\" fill=\"currentColor\"/></svg><span>Learning</span></span></button>",
+      "css": ".ds-place-row{font-family:\"BIZ UDPGothic\",sans-serif;color:var(--ink,#263e3c);display:flex;justify-content:space-between;align-items:center;width:100%;min-height:60px;border:0;background:transparent;text-align:left;padding:17px 20px;gap:8px;cursor:pointer;}.ds-place-row>span:first-child{font-size:15px;}.ds-place-row:hover,.ds-place-row[aria-current=true]{background:#e7efe5;}.ds-place-row:focus-visible{outline:3px solid #247863;outline-offset:3px;}.ds-place-row ruby{ruby-align:center;}.ds-place-row rt{font-size:.55em;line-height:1.4;color:var(--muted,#526761);}.ds-place-status{font-family:\"BIZ UDPGothic\",sans-serif;display:flex;align-items:center;gap:3px;color:var(--muted,#526761);font-size:9px;white-space:nowrap;}.ds-place-status.ds-mastered{color:#226b57;}.ds-place-status.ds-due{color:#855219;}"
+    },
+    {
+      "name": "Progress legend",
+      "kind": "custom",
+      "refersTo": "progress-status",
+      "description": "New, Learning, Mastered, and Review use an open circle, half-filled circle, tick, and return arrow.",
+      "html": "<div class=\"ds-status-legend\" aria-label=\"Learning status legend\"><span class=\"ds-place-status ds-unseen\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" aria-hidden=\"true\"><circle cx=\"10\" cy=\"10\" r=\"5.5\"/></svg>New</span><span class=\"ds-place-status ds-learning\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" aria-hidden=\"true\"><circle cx=\"10\" cy=\"10\" r=\"5.5\"/><path d=\"M10 4.5a5.5 5.5 0 0 1 0 11Z\" fill=\"currentColor\"/></svg>Learning</span><span class=\"ds-place-status ds-mastered\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" aria-hidden=\"true\"><path d=\"m4 10 4 4 8-9\"/></svg>Mastered</span><span class=\"ds-place-status ds-due\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" aria-hidden=\"true\"><path d=\"M4 8a6 6 0 1 1 1 7M4 3v5h5\"/></svg>Review</span></div>",
+      "css": ".ds-place-status{font-family:\"BIZ UDPGothic\",sans-serif;display:flex;align-items:center;gap:3px;color:var(--muted,#526761);font-size:9px;white-space:nowrap;}.ds-place-status.ds-mastered{color:#226b57;}.ds-place-status.ds-due{color:#855219;}.ds-status-legend{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:12px 20px;border-top:1px solid var(--line,#d0dcd4);}.ds-status-legend>span{gap:6px;}"
+    },
+    {
+      "name": "Reading sheet — input",
+      "kind": "card",
+      "refersTo": "place-sheet",
+      "description": "An unanswered place keeps its reading hidden unless hints are enabled. The mobile sheet follows visible viewport height.",
+      "html": "<section class=\"ds-sheet\" aria-label=\"Read the selected place\"><div class=\"ds-sheet-top\"><button class=\"ds-close\" aria-label=\"Close place card\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M6 6l12 12M18 6 6 18\"/></svg></button></div><h2><span lang=\"ja\">草津町</span></h2><p class=\"ds-hierarchy\" lang=\"ja\">関東地方 › 群馬県</p><div class=\"ds-reading-form\"><label for=\"ds-reading-input\">How do you read this name?</label><input id=\"ds-reading-input\" lang=\"en\" placeholder=\"Type in romaji\" maxlength=\"150\" autocomplete=\"off\" autocapitalize=\"off\" spellcheck=\"false\" enterkeyhint=\"go\"><p class=\"ds-input-note\">The base name is enough. Kana works too.</p></div><div class=\"ds-answer-actions\"><button class=\"ds-primary\">Check reading <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></button><button class=\"ds-quiet\">Reveal</button></div><div class=\"ds-provenance\"><span>Municipality</span><a href=\"https://www.soumu.go.jp/denshijiti/code.html\">Reading source</a></div></section>",
+      "css": ".ds-sheet{font-family:\"BIZ UDPGothic\",sans-serif;color:var(--ink,#263e3c);width:345px;max-width:100%;padding:20px 24px 24px;background:var(--paper,#fafbf6);box-shadow:var(--shadow,0 8px 30px #203c3612);border-radius:3px;max-height:calc(100dvh - 145px);overflow:auto;}.ds-sheet-top{display:flex;justify-content:flex-end;align-items:center;gap:12px;margin-bottom:8px;}.ds-sheet h2{font-size:38px;font-weight:400;margin:0 0 12px;line-height:1.8;text-wrap:balance;}.ds-sheet ruby{ruby-align:center;}.ds-sheet rt{font-size:.55em;line-height:1.4;color:var(--muted,#526761);}.ds-hierarchy{font-size:10px;line-height:1.8;color:var(--muted,#526761);margin:0 0 25px;}.ds-provenance{display:flex;justify-content:space-between;gap:12px;border-top:1px solid var(--line,#d0dcd4);padding-top:18px;margin-top:28px;font-size:9px;color:var(--muted,#526761);}.ds-provenance a{color:var(--accent,#226b57);text-underline-offset:4px;}.ds-provenance a:focus-visible{outline:3px solid #247863;outline-offset:3px;}@media(max-width:760px){.ds-sheet{width:100%;max-height:calc(var(--visible-height,100dvh) - 118px);border-radius:16px 16px 0 0;padding:12px 22px 20px;}.ds-sheet-top{margin-bottom:0;}.ds-sheet h2{font-size:28px;line-height:1.7;margin-bottom:0;}.ds-hierarchy{margin-bottom:16px;font-size:9px;}.ds-provenance{margin-top:18px;padding-top:12px;}}.ds-close{font-family:\"BIZ UDPGothic\",sans-serif;color:var(--ink,#263e3c);display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;border:0;background:transparent;cursor:pointer;}.ds-close:focus-visible{outline:3px solid #247863;outline-offset:3px;}.ds-reading-form{font-family:\"BIZ UDPGothic\",sans-serif;color:var(--ink,#263e3c);}.ds-reading-form label{display:block;font-size:12px;margin-bottom:12px;}.ds-reading-form input{font-family:\"BIZ UDPGothic\",sans-serif;color:var(--ink,#263e3c);width:100%;height:48px;padding:10px 12px;border:1px solid #9aac9f;border-radius:3px;background:#fffef9;font-size:17px;caret-color:var(--accent,#226b57);}.ds-reading-form input:focus-visible{outline:3px solid #247863;outline-offset:3px;}.ds-input-note{font-size:10px;color:var(--muted,#526761);line-height:1.8;}.ds-input-error{font-size:12px;color:#973d32;}.ds-answer-actions{display:flex;gap:12px;margin-top:20px;}@media(max-width:760px){.ds-reading-form label{margin-bottom:8px;}.ds-answer-actions{margin-top:12px;}}.ds-primary{font-family:\"BIZ UDPGothic\",sans-serif;display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:46px;padding:12px 16px;border:1px solid #226b57;border-radius:3px;background:#226b57;color:#fff;font-size:12px;cursor:pointer;}.ds-primary:hover{background:#17543f;}.ds-primary:focus-visible{outline:3px solid #247863;outline-offset:3px;}.ds-primary:disabled{cursor:default;opacity:.5;}.ds-quiet{font-family:\"BIZ UDPGothic\",sans-serif;color:var(--ink,#263e3c);min-height:44px;background:transparent;border:0;font-size:12px;padding:10px;cursor:pointer;}.ds-quiet:focus-visible{outline:3px solid #247863;outline-offset:3px;}"
+    },
+    {
+      "name": "Reading sheet — feedback",
+      "kind": "card",
+      "refersTo": "place-sheet",
+      "description": "Exact feedback example. Accepted close uses accepted ink; wrong and reveal use correction ink. The application focuses this status container before the next Tab reaches Next. Its visible focus outline is 3px green with a 6px offset and 3px corners.",
+      "html": "<section class=\"ds-sheet\" aria-label=\"Reading feedback\"><div class=\"ds-sheet-top\"><button class=\"ds-close\" aria-label=\"Close place card\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M6 6l12 12M18 6 6 18\"/></svg></button></div><h2><span lang=\"ja\"><ruby>草津町<rp>（</rp><rt>くさつまち</rt><rp>）</rp></ruby></span></h2><p class=\"ds-hierarchy\" lang=\"ja\">関東地方 › 群馬県</p><div class=\"ds-feedback\" tabindex=\"-1\" role=\"status\" aria-live=\"polite\"><h3 class=\"ds-correct\">Exactly right.</h3><p class=\"ds-answer-kana\" lang=\"ja\">くさつまち</p><p class=\"ds-romanization\">kusatsumachi</p><p class=\"ds-your-answer\">Your answer: <span>kusatsu</span></p><p class=\"ds-feedback-note\">町 is read まち (machi) here.</p><button class=\"ds-primary ds-next\">Next place <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></button></div><div class=\"ds-provenance\"><span>Municipality</span><a href=\"https://www.soumu.go.jp/denshijiti/code.html\">Reading source</a></div></section>",
+      "css": ".ds-sheet{font-family:\"BIZ UDPGothic\",sans-serif;color:var(--ink,#263e3c);width:345px;max-width:100%;padding:20px 24px 24px;background:var(--paper,#fafbf6);box-shadow:var(--shadow,0 8px 30px #203c3612);border-radius:3px;max-height:calc(100dvh - 145px);overflow:auto;}.ds-sheet-top{display:flex;justify-content:flex-end;align-items:center;gap:12px;margin-bottom:8px;}.ds-sheet h2{font-size:38px;font-weight:400;margin:0 0 12px;line-height:1.8;text-wrap:balance;}.ds-sheet ruby{ruby-align:center;}.ds-sheet rt{font-size:.55em;line-height:1.4;color:var(--muted,#526761);}.ds-hierarchy{font-size:10px;line-height:1.8;color:var(--muted,#526761);margin:0 0 25px;}.ds-provenance{display:flex;justify-content:space-between;gap:12px;border-top:1px solid var(--line,#d0dcd4);padding-top:18px;margin-top:28px;font-size:9px;color:var(--muted,#526761);}.ds-provenance a{color:var(--accent,#226b57);text-underline-offset:4px;}.ds-provenance a:focus-visible{outline:3px solid #247863;outline-offset:3px;}@media(max-width:760px){.ds-sheet{width:100%;max-height:calc(var(--visible-height,100dvh) - 118px);border-radius:16px 16px 0 0;padding:12px 22px 20px;}.ds-sheet-top{margin-bottom:0;}.ds-sheet h2{font-size:28px;line-height:1.7;margin-bottom:0;}.ds-hierarchy{margin-bottom:16px;font-size:9px;}.ds-provenance{margin-top:18px;padding-top:12px;}}.ds-close{font-family:\"BIZ UDPGothic\",sans-serif;color:var(--ink,#263e3c);display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;border:0;background:transparent;cursor:pointer;}.ds-close:focus-visible{outline:3px solid #247863;outline-offset:3px;}.ds-feedback h3{font-size:16px;font-weight:400;margin:0 0 20px;}.ds-correct{color:#226b57;}.ds-correction{color:#934932;}.ds-answer-kana{font-size:20px;margin:0 0 6px;}.ds-romanization{font-size:15px;color:var(--muted,#526761);margin:0 0 18px;}.ds-your-answer{font-size:11px;color:var(--muted,#526761);overflow-wrap:anywhere;}.ds-your-answer span{color:var(--ink,#263e3c);}.ds-feedback-note{font-size:11px;line-height:1.9;color:var(--muted,#526761);}.ds-next{width:100%;margin-top:22px;}.ds-kana-diff{display:flex;flex-wrap:wrap;gap:3px;font-size:18px;margin:18px 0;}.ds-kana-diff>span{display:flex;flex-direction:column;align-items:center;justify-content:flex-end;min-width:15px;}.ds-kana-diff del{font-size:12px;color:#923b34;text-decoration:line-through;}.ds-kana-diff ins{color:#226b57;text-decoration:underline;text-underline-offset:4px;}@media(max-width:760px){.ds-romanization{font-size:13px;}}.ds-primary{font-family:\"BIZ UDPGothic\",sans-serif;display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:46px;padding:12px 16px;border:1px solid #226b57;border-radius:3px;background:#226b57;color:#fff;font-size:12px;cursor:pointer;}.ds-primary:hover{background:#17543f;}.ds-primary:focus-visible{outline:3px solid #247863;outline-offset:3px;}.ds-primary:disabled{cursor:default;opacity:.5;}.ds-feedback:focus-visible{outline:3px solid #247863;outline-offset:6px;border-radius:3px;}"
+    },
+    {
+      "name": "Practice settings",
+      "kind": "card",
+      "refersTo": "place-sheet",
+      "description": "Native selects and checkboxes for furigana, preferred input, long vowels, and suffixes. Preferences and progress persist in this browser.",
+      "html": "<section class=\"ds-sheet\" aria-labelledby=\"ds-settings-title\"><div class=\"ds-settings-title\"><h2 id=\"ds-settings-title\">Your practice</h2><button class=\"ds-close\" aria-label=\"Close settings\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M6 6l12 12M18 6 6 18\"/></svg></button></div><label class=\"ds-setting-field\">Map furigana<select><option>Never</option><option>Always</option></select></label><label class=\"ds-setting-field\">Preferred input<select><option>Romaji</option><option>Kana / Japanese IME</option></select></label><label class=\"ds-setting-check\"><input type=\"checkbox\"><span>Require long vowels<small>Close answers count as wrong. Hepburn and Kunrei spellings remain valid.</small></span></label><label class=\"ds-setting-check\"><input type=\"checkbox\"><span>Require the suffix<small>Include 市, 町, 村 and other administrative endings.</small></span></label><p class=\"ds-settings-note\">Settings and progress stay in this browser.</p></section>",
+      "css": ".ds-sheet{font-family:\"BIZ UDPGothic\",sans-serif;color:var(--ink,#263e3c);width:345px;max-width:100%;padding:20px 24px 24px;background:var(--paper,#fafbf6);box-shadow:var(--shadow,0 8px 30px #203c3612);border-radius:3px;max-height:calc(100dvh - 145px);overflow:auto;}.ds-sheet-top{display:flex;justify-content:flex-end;align-items:center;gap:12px;margin-bottom:8px;}.ds-sheet h2{font-size:38px;font-weight:400;margin:0 0 12px;line-height:1.8;text-wrap:balance;}.ds-sheet ruby{ruby-align:center;}.ds-sheet rt{font-size:.55em;line-height:1.4;color:var(--muted,#526761);}.ds-hierarchy{font-size:10px;line-height:1.8;color:var(--muted,#526761);margin:0 0 25px;}.ds-provenance{display:flex;justify-content:space-between;gap:12px;border-top:1px solid var(--line,#d0dcd4);padding-top:18px;margin-top:28px;font-size:9px;color:var(--muted,#526761);}.ds-provenance a{color:var(--accent,#226b57);text-underline-offset:4px;}.ds-provenance a:focus-visible{outline:3px solid #247863;outline-offset:3px;}@media(max-width:760px){.ds-sheet{width:100%;max-height:calc(var(--visible-height,100dvh) - 118px);border-radius:16px 16px 0 0;padding:12px 22px 20px;}.ds-sheet-top{margin-bottom:0;}.ds-sheet h2{font-size:28px;line-height:1.7;margin-bottom:0;}.ds-hierarchy{margin-bottom:16px;font-size:9px;}.ds-provenance{margin-top:18px;padding-top:12px;}}.ds-close{font-family:\"BIZ UDPGothic\",sans-serif;color:var(--ink,#263e3c);display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;border:0;background:transparent;cursor:pointer;}.ds-close:focus-visible{outline:3px solid #247863;outline-offset:3px;}.ds-settings-title{display:flex;justify-content:space-between;align-items:center;margin-bottom:22px;}.ds-settings-title h2{font-size:22px;margin:0;line-height:1.8;}.ds-setting-field{font-size:12px;display:flex;align-items:center;justify-content:space-between;gap:14px;margin:16px 0;}.ds-setting-field select{font-family:\"BIZ UDPGothic\",sans-serif;color:var(--ink,#263e3c);min-height:44px;max-width:175px;background:#fffef9;border:1px solid #9aac9f;border-radius:3px;font-size:12px;padding:8px;}.ds-setting-field select:focus-visible,.ds-setting-check input:focus-visible{outline:3px solid #247863;outline-offset:3px;}.ds-setting-check{display:flex;align-items:flex-start;gap:12px;margin:24px 0;font-size:12px;line-height:1.8;}.ds-setting-check input{accent-color:#226b57;width:20px;height:20px;margin:0;flex-shrink:0;}.ds-setting-check small{display:block;font-size:10px;color:var(--muted,#526761);margin-top:5px;}.ds-settings-note{font-size:10px;color:var(--muted,#526761);line-height:1.8;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Pale Japanese Cartography",
+    "overview": "Chizu treats Japanese place names as the main content. Pale blue water, chalk land, green ink, and precise boundary lines establish a quiet cartographic surface. Clear Japanese lettering and a restrained paper interface keep the geography legible while a learner selects a name and practises its reading.\n\nThe interface is sparse around the map and compact within its controls. Paper sheets carry the reading question, answer feedback, and source link. The same world now supports browser-persisted progress and practice settings. This record describes the built Phase 1 interface in `src/App.tsx`, `src/Map.tsx`, `src/ReadingCard.tsx`, `src/Settings.tsx`, `src/ui.tsx`, and `src/styles.css`. The direction contract in `index.html` retains seed `c53ed443`. The Phase 1 desktop and mobile captures in `.impeccable/review/` show input and feedback states; source code is authoritative for focus and navigation behavior.",
+    "keyCharacteristics": [
+      "Pale geographic fields with dark green lettering.",
+      "Japanese names, readings, and a single reading question lead the hierarchy.",
+      "Quiet paper sheets, thin rules, and one ambient shadow.",
+      "Progress uses recognizable shapes and text alongside restrained color.",
+      "Reading input gives way to explanatory feedback and a clear Next action.",
+      "The phone sheet follows the visible viewport and preserves attempts while Places is open."
+    ],
+    "rules": [
+      {
+        "name": "The Label Contrast Rule",
+        "body": "Keep map names over a Chalk Land halo, with boundaries subordinate. Selection and progress may tint the name, but a distinct marker and the places list also communicate state.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Label Surfaces Rule",
+        "body": "Render DOM names with `lang=\"ja\"` and semantic `<ruby>`, `<rt>`, and `<rp>` when a reading is shown. Canvas labels use a formatted reading line at 0.55 of the name size; they are a visual approximation, not semantic HTML. Keep the keyboard-accessible places list as the DOM route to selecting a place.",
+        "section": "typography"
+      },
+      {
+        "name": "The Visible Progress Rule",
+        "body": "Pair learning state with its established shape and text in the places list and legend. Map color supplements the matching shape; selection must remain visually distinct from progress.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "**Do** keep map names stronger than boundaries and pale geographic fields.",
+      "**Do** retain semantic Japanese ruby and the accessible places index alongside canvas labels.",
+      "**Do** pair progress colors with the established shapes and readable status names.",
+      "**Do** keep the question, answer feedback, and Next action within the same paper sheet.",
+      "**Do** move focus to feedback after an answer, then let Tab reach Next and return to the input for the next place.",
+      "**Do** preserve the current attempt during the Places detour and keep the input reachable as the visible viewport changes.",
+      "**Do** use the existing thin rules, restrained radius scale, and single ambient shadow."
+    ],
+    "donts": [
+      "**Don't** treat canvas labels or colored marks as replacements for the DOM places list and text legend.",
+      "**Don't** shrink primary questions, answer input, or feedback to the compact provenance/footer scale.",
+      "**Don't** expose the canonical reading in an unanswered card when furigana hints are hidden.",
+      "**Don't** add nested feedback cards or decorative motion that obscures the map or the next action.",
+      "**Don't** describe a saved progress state as a completed answer for the currently open card; the card's input/feedback state is separate."
+    ]
+  }
+}

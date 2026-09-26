@@ -1,0 +1,145 @@
+{
+  "schema": 1,
+  "retrieved_utc": "2026-09-24",
+  "sources": [
+    {
+      "id": "mic-20240101",
+      "file": "mic-20240101.xlsx",
+      "url": "https://www.soumu.go.jp/main_content/000925835.xlsx",
+      "snapshot": "2024-01-01",
+      "sha256": "7d04c8a7f6a6e76a7823a0414a8422bf2b26bb6070766971df76eab58ea6ff78",
+      "license": "PDL-1.0",
+      "attribution": "「全国地方公共団体コード」（総務省、2024年1月1日）を加工して作成。"
+    },
+    {
+      "id": "n03-20240101",
+      "file": "N03-20240101_GML.zip",
+      "url": "https://nlftp.mlit.go.jp/ksj/gml/data/N03/N03-2024/N03-20240101_GML.zip",
+      "snapshot": "2024-01-01",
+      "sha256": "a03111be0fe726ff270cbc1dd16f38bc926cf814e67c8cd2e52157629d138b98",
+      "license": "CC-BY-4.0",
+      "attribution": "「国土数値情報（行政区域データ）」（国土交通省、2024年）を加工して作成。"
+    },
+    {
+      "id": "n03-20240101-gunma",
+      "file": "N03-20240101_10_GML.zip",
+      "url": "https://nlftp.mlit.go.jp/ksj/gml/data/N03/N03-2024/N03-20240101_10_GML.zip",
+      "snapshot": "2024-01-01",
+      "sha256": "2db45015507615c375037a823e6d4245b505d784cf90c641ce6c3b910499573b",
+      "license": "CC-BY-4.0",
+      "attribution": "「国土数値情報（行政区域データ）」（国土交通省、2024年）を加工して作成。"
+    },
+    {
+      "id": "biz-udpgothic-18934af",
+      "file": "BIZUDPGothic-Regular.ttf",
+      "url": "https://raw.githubusercontent.com/googlefonts/morisawa-biz-ud-gothic/18934af56b9c003ca58c54bffbf226848cb11032/fonts/ttf/BIZUDPGothic-Regular.ttf",
+      "snapshot": "18934af56b9c003ca58c54bffbf226848cb11032",
+      "sha256": "258d7156c165f2ff774b6efee637c22c3b950de0d8a10e501137061bc8085d01",
+      "license": "OFL-1.1",
+      "attribution": "BIZ UDPGothic © 2022 The BIZ UDGothic Project Authors · SIL Open Font License 1.1."
+    },
+    {
+      "id": "major-selection-20260925",
+      "file": "major-selection.json",
+      "local_path": "data/snapshots/major-selection.json",
+      "url": "https://www.wikidata.org/w/api.php",
+      "snapshot": "2026-09-25; entity/article revision IDs retained in file",
+      "sha256": "14dd60bc55e5a28530147a2bbc12fc5edb1856a576255ce1fc1cc24deb163beb",
+      "license": "CC0-1.0",
+      "attribution": "Wikidata contributors · CC0 1.0."
+    },
+    {
+      "id": "wikidata-admin-classes-20260925",
+      "file": "wikidata-admin-classes.json",
+      "local_path": "data/snapshots/wikidata-admin-classes.json",
+      "url": "https://www.wikidata.org/w/api.php",
+      "snapshot": "2026-09-25; entity/article revision IDs retained in file",
+      "sha256": "7dde6ae696fc4eababbc31f55757f63b554d4d5224835f079de3ce67bf98f377",
+      "license": "CC0-1.0",
+      "attribution": "Wikidata contributors · CC0 1.0."
+    },
+    {
+      "id": "wikidata-admins-20260925",
+      "file": "wikidata-admins.json",
+      "local_path": "data/snapshots/wikidata-admins.json",
+      "url": "https://www.wikidata.org/w/api.php",
+      "snapshot": "2026-09-25; entity/article revision IDs retained in file",
+      "sha256": "84bd315c4caf5fcf2c2d412bb5b896d692f86cdf65ffb235ba0c83d17a82f64c",
+      "license": "CC0-1.0",
+      "attribution": "Wikidata contributors · CC0 1.0."
+    },
+    {
+      "id": "wikidata-codes-20260925",
+      "file": "wikidata-codes.json",
+      "local_path": "data/snapshots/wikidata-codes.json",
+      "url": "https://www.wikidata.org/w/api.php",
+      "snapshot": "2026-09-25; entity/article revision IDs retained in file",
+      "sha256": "d46e97899b60c21b41c94bc0e7963f86fa05b3a5f0401d13f3e8e52c764ea5c2",
+      "license": "CC0-1.0",
+      "attribution": "Wikidata contributors · CC0 1.0."
+    },
+    {
+      "id": "wikidata-current-capitals-20260925",
+      "file": "wikidata-current-capitals.json",
+      "local_path": "data/snapshots/wikidata-current-capitals.json",
+      "url": "https://www.wikidata.org/w/api.php",
+      "snapshot": "2026-09-25; entity/article revision IDs retained in file",
+      "sha256": "f97facb3aa9a4479f259722aa37bf5c5bbf34fc18be852dc8323d42f63012ca3",
+      "license": "CC0-1.0",
+      "attribution": "Wikidata contributors · CC0 1.0."
+    },
+    {
+      "id": "wikidata-regions-verified-20260925",
+      "file": "wikidata-regions-verified.json",
+      "local_path": "data/snapshots/wikidata-regions-verified.json",
+      "url": "https://www.wikidata.org/w/api.php",
+      "snapshot": "2026-09-25; entity/article revision IDs retained in file",
+      "sha256": "4a3b9d2904d68836f1c355f70c7988ea70444f6cb2bcd9b7161d549e6da3f429",
+      "license": "CC0-1.0",
+      "attribution": "Wikidata contributors · CC0 1.0."
+    },
+    {
+      "id": "wikipedia-region-intros-20260925",
+      "file": "wikipedia-region-intros.json",
+      "local_path": "data/snapshots/wikipedia-region-intros.json",
+      "url": "https://ja.wikipedia.org/w/api.php",
+      "snapshot": "2026-09-25; entity/article revision IDs retained in file",
+      "sha256": "3c0ad20c66a29d5119f21ce393fad8285e408d7cea546a7bf7f9bb8ef7d121bb",
+      "license": "CC-BY-SA-4.0",
+      "attribution": "Japanese Wikipedia contributors; factual name/reading extraction; CC BY-SA 4.0."
+    },
+    {
+      "id": "wikipedia-shikoku-20260925",
+      "file": "wikipedia-shikoku.json",
+      "local_path": "data/snapshots/wikipedia-shikoku.json",
+      "url": "https://ja.wikipedia.org/w/api.php",
+      "snapshot": "2026-09-25; entity/article revision IDs retained in file",
+      "sha256": "985bcfac86255cbe2ec20ac90bce8f273d4e2b26b11b4645cc661d0e49ebc489",
+      "license": "CC-BY-SA-4.0",
+      "attribution": "Japanese Wikipedia contributors; factual name/reading extraction; CC BY-SA 4.0."
+    },
+    {
+      "id": "jmdict-20260924",
+      "file": "JMdict_e-20260924.gz",
+      "local_path": "data/snapshots/JMdict_e-20260924.gz",
+      "url": "http://ftp.edrdg.org/pub/Nihongo/JMdict_e.gz",
+      "snapshot": "2026-09-24 (XML header)",
+      "sha256": "b64fa2c4abbfd3ce77331c189b75dfcd091f4f98fdc7982f54f4ce676adbc9d3",
+      "license": "CC-BY-SA-4.0",
+      "attribution": "This application uses the JMdict/EDICT dictionary files, the property of the Electronic Dictionary Research and Development Group, under CC BY-SA 4.0."
+    },
+    {
+      "id": "noto-sans-map-glyphs-601ae607",
+      "file": "noto-sans-0-255.pbf",
+      "local_path": "public/fonts/Noto Sans Regular/0-255.pbf",
+      "url": "https://raw.githubusercontent.com/maplibre/demotiles/601ae60796ceceda2cbd2ed3d2ea92d17a84be4b/font/Noto%20Sans%20Regular/0-255.pbf",
+      "snapshot": "601ae60796ceceda2cbd2ed3d2ea92d17a84be4b",
+      "sha256": "ef1f38a3f1978591e846e9eaddf8a54f7047f546fc6aaed7872cc53151a5de78",
+      "license": "OFL-1.1",
+      "license_path": "public/fonts/Noto Sans Regular/LICENSE",
+      "license_sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "license_url": "https://raw.githubusercontent.com/openmaptiles/fonts/d48c5fce2fc58b55c98d353558d807cac45e7262/noto-sans/LICENSE",
+      "attribution": "Noto Sans Regular map glyphs, distributed by MapLibre / OpenMapTiles · SIL Open Font License 1.1."
+    }
+  ]
+}

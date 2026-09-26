@@ -1,0 +1,7 @@
+{
+  "provider": "codex-cli",
+  "model": "gpt-6-sol",
+  "reasoning_effort": "medium",
+  "max_concurrent_processes": 2,
+  "timeout_ms": 240000
+}

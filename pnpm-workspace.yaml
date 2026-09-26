@@ -1,0 +1,8 @@
+packages:
+  - '.'
+minimumReleaseAge: 4321
+minimumReleaseAgeIgnoreMissingTime: false
+minimumReleaseAgeStrict: true
+saveExact: true
+allowBuilds:
+  esbuild: true

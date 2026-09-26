@@ -1,0 +1,16 @@
+* text=auto eol=lf
+*.pmtiles binary
+*.pbf binary
+*.woff2 binary
+*.gz binary
+*.png binary
+*.jpg binary
+*.ico binary
+
+# Preserve exact bytes for hash-pinned upstream inputs and license notices.
+data/snapshots/** -text linguist-vendored
+data/facts/** linguist-generated
+public/data/** linguist-generated
+reports/** linguist-generated
+public/fonts/** -text linguist-vendored
+public/licenses/** -text linguist-vendored

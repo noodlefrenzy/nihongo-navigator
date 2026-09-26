@@ -1,0 +1,29 @@
+name: Check
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      # actions/checkout v4.2.2; authoritative commit date: 2024-10-23.
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      # actions/setup-node v4.4.0; published 2025-04-14T02:55:06Z.
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24.3.0'
+      - name: Activate pinned package manager
+        # pnpm 11.11.0 was published 2026-07-09T20:41:43.183Z.
+        run: |
+          corepack enable
+          corepack prepare pnpm@11.11.0 --activate
+      - name: Verify every locked publication timestamp
+        run: node scripts/check-dependency-age.mjs
+      - run: pnpm install --frozen-lockfile
+      - name: Verify source-release exclusions and pinned inputs
+        run: pnpm check:publication
+      - run: pnpm test
+      - run: pnpm build
+      # Full map/data/browser checks require locally generated N03 derivatives.
+      # They remain documented maintainer checks until redistribution is cleared.
