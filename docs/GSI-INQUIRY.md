@@ -1,6 +1,8 @@
 # GSI inquiry: public distribution of N03-derived map data
 
-Status: draft, not sent. The public repository contains the source release
+Status: preliminary inquiry submitted through GSI's form on 2026-09-26;
+GSI displayed its successful-send confirmation. Awaiting a response; approval
+has not been obtained. The public repository contains the source release
 described in [PUBLISHING.md](PUBLISHING.md); generated map files remain local.
 
 ## Where and how to ask
@@ -16,10 +18,14 @@ downloadable files and downstream redistribution, as well as the website.
 Fill in the sender fields privately; personal contact details do not belong
 in this repository. The draft does not itself apply for approval.
 
-Select **ご質問** (question), enter your email in both email fields, confirm the
-required topic selections, and paste the draft into **内容** (message). The form
-sends an acknowledgement email after submission. The name field is optional
-on this preliminary form; applicant identity is required for a formal application.
+Select **ご質問** (question), enter your email in both email fields, enter your
+name and phone number, confirm the required topic selections, and paste the
+short inquiry below into **内容** (message). Selecting **ご質問** reloads the form and makes
+name and phone number required, although they initially appear optional.
+The message must fit 1,024 characters, including line breaks; the limit is
+checked on submission rather than shown beside the input. Press **送信** to
+reach the review screen, verify the details, then press **ＯＫ** to send.
+The form sends an acknowledgement email after a successful submission.
 
 If GSI confirms an application is required, use **測量成果ワンストップサービス**
 (Survey Results One-Stop Service), linked from the same official page. GSI
@@ -38,7 +44,33 @@ Those accept screenshots for software and URLs for public web maps. Preserve
 the answer, approval number, scope, and conditions before changing publication
 exclusions. Keep private correspondence outside Git unless redacted for release.
 
-## Japanese draft
+## Short inquiry submitted
+
+This is the submitted message text, within the form's 1,024-character limit.
+Sender contact details were supplied separately in the form and are omitted here.
+
+件名：国土数値情報N03加工データのGitHub公開に必要な手続
+
+国土地理院 審査係 御中
+日本語の地名の読み方を学ぶWebアプリ「Nihongo Navigator」を開発しています。国土数値情報の行政区域データ（2024年1月1日時点）全国版N03-20240101_GML.zip及び群馬県版N03-20240101_10_GML.zipを使用しています。配布元にはCC BY 4.0及び複製承認「R 5JHf 357」の表示があります。
+
+行政区域ポリゴンを統合・簡略化して座標付きベクトルタイル（PMTiles）に変換し、代表点・表示範囲・地名の読み等を含むJSONも作成します。原データの復元可能性について、必要な加工条件も確認したく存じます。
+
+加工したタイル・JSONをGitHubでダウンロード・fork・変更・再配布可能な形で公開し、将来Web地図でも表示したいと考えています。現在はプログラムと再構築用スクリプト等のみ公開し、原データ・加工地図・地図画像は非公開です。コードはMITですが、地図データは原典及び承認の条件に従う方針です。
+
+以下をご教示ください。
+1. 第29条の複製承認、第30条の使用承認、申請不要のどれに該当しますか。抽出可能なタイル・JSONの公開は認められますか。
+2. 第三者によるfork・変更・再配布・Web表示や商用利用にも個別申請が必要ですか。
+3. GitHub配布とWeb表示を一つの申請で扱えますか。汎用地図データベースとしての申請・継続報告が必要ですか。
+4. 出典・承認番号の表示場所、成果品提出、更新時の手続を教えてください。再現性のため固定した2024年版で申請可能ですか。
+
+処理内容と詳細な質問は下記に記載しています。必要な資料・サンプル等もご案内ください。
+https://github.com/noodlefrenzy/nihongo-navigator/blob/main/docs/GSI-INQUIRY.md
+よろしくお願いいたします。
+
+## Detailed Japanese inquiry
+
+The full draft below provides additional context linked from the submitted message.
 
 件名：国土数値情報（行政区域データ・2024年版）の加工データをGitHubで公開する場合の承認手続について
 
@@ -52,7 +84,7 @@ exclusions. Keep private correspondence outside Git unless redacted for release.
 配布ページには、CC BY 4.0の表示と「測量法に基づく国土地理院長承認（複製）R 5JHf 357」の表示があります。
 https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2024.html
 
-現在はローカル環境で試作・検証しており、下記リポジトリではプログラム、再構築用スクリプト等のみを公開します。
+現在はローカル環境で試作・検証しており、下記リポジトリではプログラム、再構築用スクリプト等のみを公開しています。
 N03の原データ、加工した地図データ、地図画像は公開対象から除外しています。
 https://github.com/noodlefrenzy/nihongo-navigator
 
@@ -100,8 +132,9 @@ use. It also asks about reconstruction restrictions, whether one application
 covers both distribution methods, possible database reporting, required credits,
 updates, and the fixed 2024 source version.
 
-Before sending, supply your preferred sender name and contact address privately
+Before sending, supply your sender name, email address, and phone number privately
 and review the proposed downstream-use scope. Include the repository link;
 provide samples or screenshots privately to GSI only if requested and appropriate.
 The formal application will need additional identity/address details and a
-work schedule. None of those details have been invented or submitted here.
+work schedule. No formal application has been submitted. Private contact
+details and submission records remain in ignored local files.
