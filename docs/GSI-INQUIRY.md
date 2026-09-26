@@ -5,8 +5,9 @@ described in [PUBLISHING.md](PUBLISHING.md); generated map files remain local.
 
 ## Where and how to ask
 
-Start with the **お問い合わせフォーム** (inquiry form) under **４．問い合わせ窓口**
-on [GSI's official map-use procedures page](https://www.gsi.go.jp/LAW/2930-index.html).
+Use [GSI's application/approval inquiry form](https://geoinfo2.gsi.go.jp/contact/Inquiry2.aspx?bcode=100602&mcode=10060202&pcode=1006),
+linked under **４．問い合わせ窓口** on
+[GSI's official map-use procedures page](https://www.gsi.go.jp/LAW/2930-index.html).
 The responsible office is 国土地理院 地理空間情報部 情報企画課 審査係
 (Geospatial Information Department, Information Planning Division, Review Section).
 
@@ -14,6 +15,11 @@ Use the draft below for a preliminary classification inquiry. It asks about
 downloadable files and downstream redistribution, as well as the website.
 Fill in the sender fields privately; personal contact details do not belong
 in this repository. The draft does not itself apply for approval.
+
+Select **ご質問** (question), enter your email in both email fields, confirm the
+required topic selections, and paste the draft into **内容** (message). The form
+sends an acknowledgement email after submission. The name field is optional
+on this preliminary form; applicant identity is required for a formal application.
 
 If GSI confirms an application is required, use **測量成果ワンストップサービス**
 (Survey Results One-Stop Service), linked from the same official page. GSI
